@@ -6,13 +6,13 @@
 ### Installation
 
 * Clone or download the repo.
-* Open terminal and navigate to `fizzbuzz` folder.
-* Run `npm install` to install dependencies.
+* Open terminal and navigate to this folder.
 
 ### Usage
 
-* Run `npm start` to launch server.
-* Run `npm test` to launch test suite.
+* Run `bash _scripts/startDev.sh` to start the dev environment.
+* Run `bash _scripts/teardown.sh` to tear down the current environment.
+* Run `docker compose down` if you just want to stop the current environment.
 
 ## Changelog
 
