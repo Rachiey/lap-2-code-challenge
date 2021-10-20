@@ -30,17 +30,10 @@
 
 ## Changelog
 
-
 ## Bugs
-
 
 ## Wins & Challenges
 
 ### Wins
 
-* Managed to implement a loop.
-* Learned how to use modulus operator.
-
 ### Challenges
-
-* Realised using return would not log all numbers up to the arguement number.
