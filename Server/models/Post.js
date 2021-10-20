@@ -27,14 +27,10 @@ module.exports = class Post {
     static findById(id){
         return new Promise (async (res, rej) => {
             try {
-                const query = {
-                    text: `SELECT posts.*, authors.pseudonym
-                                FROM posts
-                                INNER JOIN authors ON posts.author_id = authors.id
-                                WHERE posts.id = $1;`,
-                    values: [ id ],
-                }
-                const postData = await db.query(query);
+                const postData = await db.query(`SELECT posts.*, authors.pseudonym
+                                                    FROM posts
+                                                    INNER JOIN authors ON posts.author_id = authors.id
+                                                    WHERE posts.id = $1;`, [ id ]);
                 const post = new Post(postData.rows[0]);
                 res(post)
             } catch (err) {
