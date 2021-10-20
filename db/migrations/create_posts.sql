@@ -5,5 +5,5 @@ CREATE TABLE posts (
     title VARCHAR(100) NOT NULL,
     body VARCHAR(500) NOT NULL,
     date VARCHAR(20) NOT NULL,
-    author_id int REFERENCES authors(id) 
+    author VARCHAR(100)
 );
