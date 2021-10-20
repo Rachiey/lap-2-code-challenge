@@ -1,5 +1,8 @@
 body {
-    margin: 50px;
+    margin-top: 45px;
+    margin-left: 150px;
+    margin-right: 175px;
+    display: block;
 }
 #submit {
     float: right;
@@ -9,4 +12,28 @@ body {
     padding-bottom: 3px;
     border-radius: 18px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    white-space: nowrap; 
+}
+
+
+h1:empty:not(:focus)::before {
+    content: attr(placeholder);
+    
+}
+
+address:empty:not(:focus)::before {
+    content: attr(placeholder);
+    
+}
+
+p:empty:not(:focus)::before {
+    content: attr(placeholder);
+    
+}
+
+p {
+    /* margin: 100px; */
+    outline:none;
 }
