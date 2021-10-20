@@ -4,7 +4,7 @@
 
 body {
     margin-top: 45px;
-    margin-left: 150px;
+    margin-left: 250px;
     margin-right: 175px;
     display: block;
 }
@@ -20,6 +20,7 @@ body {
     font-weight: bolder;
     white-space: nowrap; 
     background-color: white;
+    border-color: #5900b3;
 }
 
 
@@ -37,10 +38,7 @@ address:empty:before {
 
 p:empty:before {
     content: attr(placeholder);
+    outline:none;
     
 }
 
-p {
-    /* margin: 100px; */
-    outline:none;
-}
