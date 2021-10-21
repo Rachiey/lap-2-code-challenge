@@ -1,7 +1,7 @@
 INSERT INTO posts (title, body, date, author)
 VALUES
 (
-    'test post 1',
+    'Test post 1',
     'This is a test post',
     '20th October 2021',
     'Jim McBob'
