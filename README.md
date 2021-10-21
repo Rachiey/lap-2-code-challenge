@@ -31,7 +31,8 @@
 ## Changelog
 
 ## Bugs
-
+- Still need to connect server and client
+- The 'publish button' doesnt auto-redirect to static template, seems you have to refresh to load the page
 ## Wins & Challenges
 
 ### Wins
