@@ -31,8 +31,9 @@
 ## Changelog
 
 ## Bugs
-- Still need to connect server and client
-- The 'publish button' doesnt auto-redirect to static template, seems you have to refresh to load the page
+
+- Currently can only view a specific post by going to `/post?id=x` where `x` is the id of the post you want to view
+
 ## Wins & Challenges
 
 ### Wins
